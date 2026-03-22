@@ -11,8 +11,11 @@ ol {
 
 a {
     text-decoration: none;
+    color: currentColor;
+    /* Додано: успадковує колір від батьківського елемента */
 }
 
+/* Явний колір для логотипу та інших лінків */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -58,7 +61,7 @@ a {
     color: #404bbf;
 }
 
-/* Hero секция */
+/* Hero секція */
 .hero {
     background-color: #2e2f42;
 }
@@ -68,7 +71,6 @@ a {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* ИСПРАВЛЕНО: 60px/56px = 1.07142857 ≈ 1.07 */
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -83,6 +85,8 @@ a {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    border: none;
+    /* Додано для кнопки */
 }
 
 .order-service:hover,
@@ -90,11 +94,7 @@ a {
     background-color: #404bbf;
 }
 
-/* Секция Features (преимущества) - ДОБАВЛЕНЫ СТИЛИ */
-.our-features {
-    /* Стили для секции при необходимости */
-}
-
+/* Секція Features */
 .features-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -114,26 +114,21 @@ a {
     color: #434455;
 }
 
-/* Заголовки секций - ИСПРАВЛЕН line-height */
+/* Заголовки секцій */
 .section-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* ИСПРАВЛЕНО: 40px/36px = 1.111111... ≈ 1.11 */
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
 }
 
-/* Секция Team */
+/* Секція Team */
 .our-team {
     background-color: #f4f4fd;
-}
-
-.team-list {
-    /* Стили для списка команды */
 }
 
 .team-card {
@@ -161,19 +156,7 @@ a {
     color: #434455;
 }
 
-/* Секция Portfolio */
-.our-portfolio {
-    /* Стили для секции портфолио */
-}
-
-.portfolio-list {
-    /* Стили для списка портфолио */
-}
-
-.portfolio-item-card {
-    /* Стили для карточки портфолио */
-}
-
+/* Секція Portfolio */
 .portfolio-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
