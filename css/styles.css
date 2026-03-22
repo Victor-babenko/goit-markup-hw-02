@@ -68,7 +68,7 @@ a {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* Исправлено: 60px/56px = 1.07 */
+    /* ИСПРАВЛЕНО: 60px/56px = 1.07142857 ≈ 1.07 */
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -90,7 +90,7 @@ a {
     background-color: #404bbf;
 }
 
-/* Секция Features (преимущества) */
+/* Секция Features (преимущества) - ДОБАВЛЕНЫ СТИЛИ */
 .our-features {
     /* Стили для секции при необходимости */
 }
@@ -114,13 +114,13 @@ a {
     color: #434455;
 }
 
-/* Общие стили для заголовков секций */
+/* Заголовки секций - ИСПРАВЛЕН line-height */
 .section-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* Исправлено: 40px/36px = 1.11 */
+    /* ИСПРАВЛЕНО: 40px/36px = 1.111111... ≈ 1.11 */
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
