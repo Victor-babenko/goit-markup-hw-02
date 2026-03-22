@@ -1,15 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #fff;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 /* LOGO */
@@ -19,7 +10,6 @@ a {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
 }
 
@@ -27,9 +17,20 @@ a {
     color: #2e2f42;
 }
 
+/* ✅ цвет для футера */
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
 /* NAV */
 .nav-link {
     font-weight: 500;
+    font-size: 16px;
+    /* ✅ добавлено */
+    line-height: 1.5;
+    /* ✅ */
+    letter-spacing: 0.02em;
+    /* ✅ */
     color: #2e2f42;
 }
 
@@ -47,7 +48,9 @@ a {
     color: #434455;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
+    /* ✅ добавлено */
     color: #404bbf;
 }
 
@@ -59,19 +62,26 @@ a {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    /* исправлено */
-    text-align: center;
+    letter-spacing: 0.02em;
+    /* ✅ добавлено */
     color: #fff;
 }
 
+/* BUTTON */
 .order-service {
+    font-weight: 500;
+    /* ✅ */
+    line-height: 1.5;
+    /* ✅ */
+    letter-spacing: 0.04em;
+    /* ✅ */
     background-color: #4d5ae5;
     color: #fff;
-    cursor: pointer;
-    border: none;
 }
 
-.order-service:hover {
+.order-service:hover,
+.order-service:focus {
+    /* ✅ добавлено */
     background-color: #404bbf;
 }
 
@@ -88,36 +98,41 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* TEAM */
-.our-team {
-    background-color: #f4f4fd;
-}
-
-.team-item {
-    background-color: #fff;
-}
-
 .team-name {
     font-weight: 500;
-    font-size: 20px;
-    text-align: center;
+    line-height: 1.2;
+    /* ✅ */
+    letter-spacing: 0.02em;
+    /* ✅ */
+    color: #2e2f42;
 }
 
 .team-role {
-    text-align: center;
+    line-height: 1.5;
+    /* ✅ */
+    letter-spacing: 0.02em;
+    /* ✅ */
 }
 
 /* PORTFOLIO */
 .portfolio-title {
     font-weight: 500;
-    font-size: 20px;
+    line-height: 1.2;
+    /* ✅ */
+    letter-spacing: 0.02em;
+    /* ✅ */
+    color: #2e2f42;
+    /* ✅ исправлено */
 }
 
 .portfolio-text {
-    color: #434455;
+    line-height: 1.5;
+    /* ✅ */
+    letter-spacing: 0.02em;
+    /* ✅ */
 }
 
 /* FOOTER */
