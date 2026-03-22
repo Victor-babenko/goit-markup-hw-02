@@ -2,20 +2,21 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
+    margin: 0;
 }
 
 ul,
 ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
     color: currentColor;
-    /* Додано: успадковує колір від батьківського елемента */
 }
 
-/* Явний колір для логотипу та інших лінків */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -61,7 +62,6 @@ a {
     color: #404bbf;
 }
 
-/* Hero секція */
 .hero {
     background-color: #2e2f42;
 }
@@ -74,6 +74,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin: 0;
 }
 
 .order-service {
@@ -86,7 +87,6 @@ a {
     background-color: #4d5ae5;
     cursor: pointer;
     border: none;
-    /* Додано для кнопки */
 }
 
 .order-service:hover,
@@ -94,7 +94,6 @@ a {
     background-color: #404bbf;
 }
 
-/* Секція Features */
 .features-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -102,7 +101,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .features-text {
@@ -112,9 +111,9 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 
-/* Заголовки секцій */
 .section-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -123,10 +122,9 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin: 0 0 72px 0;
 }
 
-/* Секція Team */
 .our-team {
     background-color: #f4f4fd;
 }
@@ -143,7 +141,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .team-position {
@@ -154,9 +152,9 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin: 0;
 }
 
-/* Секція Portfolio */
 .portfolio-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -164,7 +162,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .portfolio-description {
@@ -174,9 +172,9 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 
-/* Footer */
 .page-footer {
     background-color: #2e2f42;
 }
@@ -192,4 +190,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin: 0;
 }
