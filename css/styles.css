@@ -90,15 +90,13 @@ font-family: "Roboto", sans-serif;
     cursor: pointer;
 }
 
-.order-service:hover,  .order-service:focus {
-    color: #404bbf;
-}
+
 
 .our-team{
     background-color: #f4f4fd;
 }
 
-.team-title{
+.our-portfolio-title{
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
